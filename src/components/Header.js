@@ -1,13 +1,16 @@
 import React from 'react'
 import { CartLogo, PwipStoreLogo } from '../assets'
+import { Link } from 'react-router-dom'
 
 function Header() {
   return (
     <div className='w-full h-20 bg-blue-300 border-b-[1px] border-b-gray-800 font-titleFont sticky top-0 z-50'>
         <div className='max-w-screen-xl h-full mx-auto flex items-center justify-between'>
+          <Link to="/">
             <div>
                 <img className='w-48' src={PwipStoreLogo} alt="LA PWIPSTOREEE"/>
             </div>
+          </Link>
             <div className='flex items-center gap-8'>
                 <ul className='flex items-center gap-8'>
                     <li className='text-base text-black font-bold hover:text-red-400 hover:underline underline-offset-2 decoration-[1px] cursor-pointer duration-300'>Home</li>

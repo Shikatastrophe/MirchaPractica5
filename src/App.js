@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Cart from "./pages/Cart";
+import Product from "./components/Product";
 import {
   createBrowserRouter,
   Outlet,
@@ -15,6 +16,7 @@ const Layout=()=>{
   return(
     <div>
       <Header />
+      <ScrollRestoration></ScrollRestoration>
       <Outlet />
       <Footer />
     </div>
@@ -29,6 +31,10 @@ const router = createBrowserRouter([
       path:"/",
       element:<Home />,
       loader: productsData,
+    },
+    {
+      path:"/product/:id",
+      element:<Product />
     },
     {
       path:"/cart",
