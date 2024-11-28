@@ -50,8 +50,8 @@ const Product = () => {
                 </div>
                 <button className='bg-black text-white py-3 px-6 active:bg-gray-800'>add to cart</button>
             </div>
+            <p className='text-base text-gray-500 mt-9'>Category: <span className='font-medium capitalize'>{details.category}</span></p>
             </div>
-
         </div>
     </div>
   )
