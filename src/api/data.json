@@ -1,0 +1,212 @@
+[
+    {
+        "id":"1",
+        "description":"¡Esta figura de Ashe te encantará!",
+        "image":"../assets/products/ashe.jpg",
+        "isNew":"false",
+        "oldPrice":"500",
+        "price":"300",
+        "title":"Funko Pop Ashe",
+        "category":"Dps"
+    },
+    {
+        "id":"2",
+        "description":"Completa tu colección con esta figura de Baptiste.",
+        "image":"../assets/products/baptiste.jpg",
+        "isNew":"true",
+        "oldPrice":"500",
+        "price":"250",
+        "title":"Funko Pop Baptiste",
+        "category":"Support"
+    },
+    {
+        "id":"3",
+        "description":"Compra ya esta figura de Brigitte.",
+        "image":"../assets/products/brigitte.jpg",
+        "isNew":"false",
+        "oldPrice":"500",
+        "price":"300",
+        "title":"Funko Pop Brigitte",
+        "category":"Support"
+    },
+    {
+        "id":"4",
+        "description":"Si eres coleccionista, ¡esta figura de Cassidy no puede faltarte!",
+        "image":"../assets/products/cassidy.jpg",
+        "isNew":"false",
+        "oldPrice":"500",
+        "price":"150",
+        "title":"Funko Pop Cassidy",
+        "category":"Dps"
+    },
+    {
+        "id":"5",
+        "description":"Si Doomfist es tu personaje favorito de Overwatch, ¡compra esta figura ya!",
+        "image":"../assets/products/doomfist.jpg",
+        "isNew":"true",
+        "oldPrice":"500",
+        "price":"325",
+        "title":"Funko Pop Doomfist",
+        "category":"Tank"
+    },
+    {
+        "id":"6",
+        "description":"¡Esta figura de D.Va te encantará!",
+        "image":"../assets/products/dva.jpg",
+        "isNew":"false",
+        "oldPrice":"500",
+        "price":"490",
+        "title":"Funko Pop D.Va y Meka",
+        "category":"Tank"
+    },
+    {
+        "id":"7",
+        "description":"Completa tu colección con esta figura de D.Va.",
+        "image":"../assets/products/dva2.jpg",
+        "isNew":"true",
+        "oldPrice":"500",
+        "price":"450",
+        "title":"Funko Pop D.Va Nano",
+        "category":"Tank"
+    },
+    {
+        "id":"8",
+        "description":"Compra ya esta figura de Echo.",
+        "image":"../assets/products/echo.jpg",
+        "isNew":"false",
+        "oldPrice":"500",
+        "price":"250",
+        "title":"Funko Pop Echo",
+        "category":"Dps"
+    },
+    {
+        "id":"9",
+        "description":"Si eres coleccionista, ¡esta figura de Echo no puede faltarte!",
+        "image":"../assets/products/echo2.jpg",
+        "isNew":"true",
+        "oldPrice":"500",
+        "price":"355",
+        "title":"Funko Pop Echo Hot Rod",
+        "category":"Dps"
+    },
+    {
+        "id":"10",
+        "description":"Si Junker Queen es tu personaje favorito de Overwatch, ¡compra esta figura ya!",
+        "image":"../assets/products/jqueen.jpg",
+        "isNew":"false",
+        "oldPrice":"500",
+        "price":"350",
+        "title":"Funko Pop Junker Queen",
+        "category":"Tank"
+    },
+    {
+        "id":"11",
+        "description":"¡Esta figura de Kiriko te encantará!",
+        "image":"../assets/products/kiriko.jpg",
+        "isNew":"false",
+        "oldPrice":"500",
+        "price":"200",
+        "title":"Funko Pop Kiriko",
+        "category":"Support"
+    },
+    {
+        "id":"12",
+        "description":"Completa tu colección con esta figura de Lucio.",
+        "image":"../assets/products/lucio.jpg",
+        "isNew":"false",
+        "oldPrice":"500",
+        "price":"250",
+        "title":"Funko Pop Lucio",
+        "category":"Support"
+    },
+    {
+        "id":"13",
+        "description":"Compra ya esta figura de Mei.",
+        "image":"../assets/products/mei.jpg",
+        "isNew":"true",
+        "oldPrice":"500",
+        "price":"250",
+        "title":"Funko Pop Mei",
+        "category":"Dps"
+    },
+    {
+        "id":"14",
+        "description":"Si eres coleccionista, ¡esta figura de Orisa no puede faltarte!",
+        "image":"../assets/products/orisa.jpg",
+        "isNew":"false",
+        "oldPrice":"500",
+        "price":"400",
+        "title":"Funko Pop Orisa",
+        "category":"Tank"
+    },
+    {
+        "id":"15",
+        "description":"Si Phara es tu personaje favorito de Overwatch, ¡compra esta figura ya!",
+        "image":"../assets/products/phara.jpg",
+        "isNew":"true",
+        "oldPrice":"500",
+        "price":"150",
+        "title":"Funko Pop Phara",
+        "category":"Dps"
+    },
+    {
+        "id":"16",
+        "description":"¡Esta figura de Reaper te encantará!",
+        "image":"../assets/products/reaper.jpg",
+        "isNew":"false",
+        "oldPrice":"500",
+        "price":"125",
+        "title":"Funko Pop Reaper",
+        "category":"Dps"
+    },
+    {
+        "id":"17",
+        "description":"Completa tu colección con esta figura de Sigma.",
+        "image":"../assets/products/sigma.jpg",
+        "isNew":"false",
+        "oldPrice":"500",
+        "price":"200",
+        "title":"Funko Pop Sigma",
+        "category":"Tank"
+    },
+    {
+        "id":"18",
+        "description":"Compra ya esta figura de Torbjörn.",
+        "image":"../assets/products/torbjorn.jpg",
+        "isNew":"true",
+        "oldPrice":"500",
+        "price":"175",
+        "title":"Funko Pop Torbjörn",
+        "category":"Dps"
+    },
+    {
+        "id":"19",
+        "description":"Si eres coleccionista, ¡esta figura de Tracer no puede faltarte!",
+        "image":"../assets/products/tracer.jpg",
+        "isNew":"false",
+        "oldPrice":"500",
+        "price":"425",
+        "title":"Funko Pop Tracer",
+        "category":"Dps"
+    },
+    {
+        "id":"20",
+        "description":"Si Winston es tu personaje favorito de Overwatch, ¡compra esta figura ya!",
+        "image":"../assets/products/winston.jpg",
+        "isNew":"false",
+        "oldPrice":"500",
+        "price":"250",
+        "title":"Funko Pop Winston",
+        "category":"Winton"
+    },
+    {
+        "id":"21",
+        "description":"¡Esta figura de Zarya te encantará!",
+        "image":"../assets/products/zarya.jpg",
+        "isNew":"true",
+        "oldPrice":"500",
+        "price":"100",
+        "title":"Funko Pop Zarya",
+        "category":"Tank"
+    }
+] 

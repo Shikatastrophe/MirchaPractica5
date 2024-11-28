@@ -9,6 +9,7 @@ Shika
 - Agruegue el Header y Footer
 - Puse el Carrusel
 - Hice una Imagen Pal Carrusel (TODOS LOS FUNKOS QUE QUIERAS)
+- Hice la base de Datos (data.json)
 
 Carol
 
