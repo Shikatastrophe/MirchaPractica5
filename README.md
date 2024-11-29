@@ -14,6 +14,10 @@ Shika
 Carol
 
 Will
+-creacion de un sistema de añadir productos a un carrito
+-creacion de la pagina del carrito
+-creacion de una notificacion para avisar cuando un producto se añade al carrito
+-el header ahora muestra cuantos productos hay en el carrito
 
 Amaury
 
