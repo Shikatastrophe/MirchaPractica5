@@ -22,3 +22,10 @@ Will
 
 Amaury
 
+- Hice la pagina de logeo
+- Hice la conexion de atuh con Firebase
+- Conecte el sistema de checkout para que solo deje pagar si estas logeado
+- Hice la conexion de stripe
+- Conecte el carrito al metodo de pago con stripe
+- Hice un server para configurar stripe
+- Hice un cartel para el carrusel
