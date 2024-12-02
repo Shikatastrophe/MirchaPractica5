@@ -13,6 +13,7 @@ Shika
 - Hice un repo para la base de datos y su funcionamiento propio
 - Hice la integracion para correo
 - Hice un filtro de articulos
+- Intenté meter una api de envio pero nada mas no se puede :( (Shippo)
 
 Carol
 - Agregue una base de datos de producto provicional
