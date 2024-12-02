@@ -1,13 +1,14 @@
 import React, { useState } from 'react'
 import { HiArrowRight, HiArrowLeft } from "react-icons/hi";
 import { Banner1 } from '../assets';
+import { kirikobanner } from '../assets';
 
 
 const Banner = () => {
     const [currentSlide, setCurrentSlide]= useState(0)
     const data = [
         Banner1,
-        "https://m.media-amazon.com/images/I/712jWw3soWL._SX3000_.jpg",
+        kirikobanner,
         "https://m.media-amazon.com/images/I/712cOajJSRL._SX3000_.jpg",
         "https://m.media-amazon.com/images/I/51SUpzj8JuL._SX3000_.jpg",
     ];
