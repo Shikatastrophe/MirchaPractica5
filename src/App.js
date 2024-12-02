@@ -12,7 +12,7 @@ import {
   ScrollRestoration,
 } from "react-router-dom";
 import { productsData } from "./api/Api";
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 const Layout=()=>{
   return(
     <div>

@@ -11,6 +11,8 @@ Shika
 - Hice una Imagen Pal Carrusel (TODOS LOS FUNKOS QUE QUIERAS)
 - Hice la base de Datos (data.json)
 - Hice un repo para la base de datos y su funcionamiento propio
+- Hice la integracion para correo
+- Hice un filtro de articulos
 
 Carol
 - Agregue una base de datos de producto provicional
