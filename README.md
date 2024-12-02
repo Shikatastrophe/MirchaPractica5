@@ -17,7 +17,9 @@ Carol
 - Agregue interacciones a los productos al dar clic y al hacer hover
 - Conecte los datos provicionales al sistema de lista de productos para poder mostrarlos
 - Hice la interfaz de cuando te metes a ver un producto
+  
 Will
+
 - creacion de un sistema de añadir productos a un carrito
 - creacion de la pagina del carrito
 - creacion de una notificacion para avisar cuando un producto se añade al carrito
