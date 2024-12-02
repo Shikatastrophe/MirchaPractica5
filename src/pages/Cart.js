@@ -12,6 +12,10 @@ const Cart = () => {
   const [TotalAmt, SetTotalAmt] = useState("");
   const [payNow, setPayNow] = useState(false);
 
+  emailjs.init({
+    publicKey: "VgPJ30KtQ9GFgXCBY",
+    });
+
   useEffect(()=>{
     let price = 0;
     productData.map((item)=>{
@@ -22,6 +26,20 @@ const Cart = () => {
   },[productData]);
   const handleCheckout = () => {
     if(userInfo){
+      var params = {
+        to_name : userInfo.displayName,
+        from_name : "PWIPSTORE",
+        email_id : userInfo.email,
+        message : "Hola! Gracias Por Comprar en PWIPSTORE! Tu producto se enviará pronto!."
+      }
+      emailjs.send("service_xe9h8xf","template_ohup918",params).then(
+        (response) => {
+          console.log('SUCCESS!', response.status, response.text);
+        },
+        (error) => {
+          console.log('FAILED...', error);
+        },
+      );
       setPayNow(true)
     }else{
       toast.error("Please sign in to Checkout");
@@ -32,20 +50,7 @@ const Cart = () => {
       amount: TotalAmt*100,
       token: token,
     })
-    var params = {
-      to_name : userInfo.displayName,
-      from_name : "PWIPSTORE",
-      email_id : userInfo.email,
-      message : "Hola! Gracias Por Comprar en PWIPSTORE! Tu producto se enviará pronto!."
-      }
-      emailjs.send("service_xe9h8xf","template_ohup918",params).then(
-      (response) => {
-          console.log('SUCCESS!', response.status, response.text);
-      },
-      (error) => {
-          console.log('FAILED...', error);
-      },
-      );
+    
   }
   return (
     <div>
