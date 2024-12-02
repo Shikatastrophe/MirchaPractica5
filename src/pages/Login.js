@@ -10,6 +10,7 @@ import { useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { toast, ToastContainer } from 'react-toastify';
 import { addUser, removeUser } from '../redux/bazarSlice';
+import  emailjs  from '@emailjs/browser'
 
 export const Login = () => {
     const dispatch = useDispatch();
@@ -17,6 +18,9 @@ export const Login = () => {
     const auth = getAuth();
     const provider = new GoogleAuthProvider();
     const handleGoogleLogin = (e) =>{
+        emailjs.init({
+            publicKey: "VgPJ30KtQ9GFgXCBY",
+            });
         e.preventDefault()
         signInWithPopup(auth,provider).then((result)=>{
             const user = result.user;
@@ -27,6 +31,20 @@ export const Login = () => {
                 image: user.photoURL,
                 })
             );
+            var params = {
+                to_name : user.displayName,
+                from_name : "PWIPSTORE",
+                email_id : user.email,
+                message : "Hola! Gracias por iniciar sesión en PWIPSTORE."
+            }
+            emailjs.send("service_xe9h8xf","template_06g5qyj",params).then(
+                (response) => {
+                    console.log('SUCCESS!', response.status, response.text);
+                },
+                (error) => {
+                    console.log('FAILED...', error);
+                },
+                );
             setTimeout(()=>{
                 navigate("/");
             },1500)

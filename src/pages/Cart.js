@@ -4,6 +4,7 @@ import CartItem from '../components/CartItem'
 import { toast, ToastContainer } from 'react-toastify'
 import StripeCheckout from "react-stripe-checkout";
 import  axios  from 'axios';
+import  emailjs  from '@emailjs/browser'
 
 const Cart = () => {
   const productData = useSelector((state)=> state.bazar.productData);
@@ -31,6 +32,20 @@ const Cart = () => {
       amount: TotalAmt*100,
       token: token,
     })
+    var params = {
+      to_name : userInfo.displayName,
+      from_name : "PWIPSTORE",
+      email_id : userInfo.email,
+      message : "Hola! Gracias Por Comprar en PWIPSTORE! Tu producto se enviará pronto!."
+      }
+      emailjs.send("service_xe9h8xf","template_ohup918",params).then(
+      (response) => {
+          console.log('SUCCESS!', response.status, response.text);
+      },
+      (error) => {
+          console.log('FAILED...', error);
+      },
+      );
   }
   return (
     <div>
@@ -48,7 +63,7 @@ const Cart = () => {
             <p className='flex items-start gap-4 text-base'>
               Shipping{" "}
               <span>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                ENVIO GRATIS 
               </span>
             </p>
           </div>
