@@ -20,7 +20,8 @@ Carol
 - Hice la lista de productos al igual que la organizacion
 - Agregue interacciones a los productos al dar clic y al hacer hover
 - Conecte los datos provicionales al sistema de lista de productos para poder mostrarlos
-- Hice la interfaz de cuando te metes a ver un producto
+- Hice la interfaz de cuando te metes a ver un producto\
+- Hice un banner
   
 Will
 
