@@ -3,6 +3,7 @@ import { HiArrowRight, HiArrowLeft } from "react-icons/hi";
 import { Banner1 } from '../assets';
 import { kirikobanner } from '../assets';
 import { DVaBanner } from '../assets';
+import { banner4 } from '../assets';
 
 
 const Banner = () => {
@@ -11,7 +12,7 @@ const Banner = () => {
         Banner1,
         kirikobanner,
         DVaBanner,
-        "https://m.media-amazon.com/images/I/51SUpzj8JuL._SX3000_.jpg",
+        banner4,
     ];
 
     const prevSlide=()=>{

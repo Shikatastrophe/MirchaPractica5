@@ -30,6 +30,7 @@ Will
 - creacion de una notificacion para avisar cuando un producto se añade al carrito
 - el header ahora muestra cuantos productos hay en el carrito
 - Implemente el sistema de que el carrito se guarde aunque la página se reinicie
+- Hice un banner
 
 Amaury
 

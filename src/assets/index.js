@@ -6,4 +6,5 @@ import PaymentLogo from "./Tarketas.png";
 import Banner1 from "./Banner1.png";
 import kirikobanner from "./kirikobanner.png";
 import DVaBanner from "./DVaBanner.png";
-export { PwipStoreLogo, CartLogo, GithubLogo, GoogleLogo, PaymentLogo, Banner1, kirikobanner,DVaBanner };
+import banner4 from "./banner4.png"
+export { PwipStoreLogo, CartLogo, GithubLogo, GoogleLogo, PaymentLogo, Banner1, kirikobanner,DVaBanner, banner4 };
