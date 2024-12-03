@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { HiArrowRight, HiArrowLeft } from "react-icons/hi";
 import { Banner1 } from '../assets';
 import { kirikobanner } from '../assets';
+import { DVaBanner } from '../assets';
 
 
 const Banner = () => {
@@ -9,7 +10,7 @@ const Banner = () => {
     const data = [
         Banner1,
         kirikobanner,
-        "https://m.media-amazon.com/images/I/712cOajJSRL._SX3000_.jpg",
+        DVaBanner,
         "https://m.media-amazon.com/images/I/51SUpzj8JuL._SX3000_.jpg",
     ];
 
